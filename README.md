@@ -88,9 +88,8 @@ Here is the recommended workflow:
 The navigator (who will become the new driver):
 
   - Clone the repo from the link your partner Slacked you into your working directory.
-  - See the above <a href="#directory">directory structure</a> for what you should have on your file system and navigate into the subdirectory named after you and your partner.
-  - Fetch the branch you were just working on (`git fetch origin <driverName-navigatorName>`)
-  - Switch to that branch (`git checkout -b <driverName-navigatorName>`).
+  - Type `git checkout <driverName-navigatorName>` to check out the remote branch. NOTE: do not use -b flag.
+  - That should automatically switch proper branch, otherwise type `git checkout <driverName-navigatorName`
   - Open the code in your editor and resume editing the code.
   - Add, commit, push as you have done before.
 
