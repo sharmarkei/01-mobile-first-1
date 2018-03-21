@@ -89,7 +89,11 @@ The navigator (who will become the new driver):
 
   - Clone the repo from the link your partner Slacked you into your working directory.
   - Type `git checkout <driverName-navigatorName>` to check out the remote branch. NOTE: do not use -b flag.
-  - That should automatically switch to proper branch, otherwise type `git checkout <driverName-navigatorName`
+   - If remote branch checkout is successful your terminal should show `Branch 'driver-navigator' set up to track remote branch 'driver-navigator' from 'origin'.
+Switched to a new branch 'driver-navigator'`
+  - Type `ls` from terminal to confirm <driverName-navigatorName> folder exists.
+  - If folder does not exist then try `git branch -b <driverName-navigatorName> origin/<driverName-navigatorName>`
+  - If *still* not working then ask TA and/or refer to Tracking Branches section of [Git - Remote Branches] (https://git-scm.com/book/en/v2/Git-Branching-Remote-Branches)  
   - Open the code in your editor and resume editing the code.
   - Add, commit, push as you have done before.
 
